@@ -5,6 +5,6 @@
     - name: install nginx
       apt: name=nginx state=latest
     - name: start nginx
-      state: restart     
+      state: restart
 
     
