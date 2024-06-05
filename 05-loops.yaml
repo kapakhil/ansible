@@ -1,0 +1,12 @@
+- name: loops from play level
+  hosts: localhost
+  tasks:
+    - name: print person names
+      ansible.builtin.debug:
+        msg: "hello {{item}}"
+
+
+      loops:
+        - akhil
+        - ab
+        - vk                          
