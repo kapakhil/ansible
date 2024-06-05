@@ -1,5 +1,5 @@
 - name: install and start ngnix
-  hosts: server
+  hosts: localhost
   become: yes # if we use this u will get root access
   tasks:
     - name: install nginx
