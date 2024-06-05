@@ -5,7 +5,7 @@
       ansible.builtin.debug:
         msg: "Helloww {{item}}"
 
-      loops: 
+      loop: 
        - kapdam
        - akhil
        - ab
