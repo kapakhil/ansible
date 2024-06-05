@@ -1,6 +1,6 @@
 - name: variables
   hosts: localhost
   tasks:
-   - name: variables from play list
+    - name: variables from play list
       ansible.builtin.debug:
         msg: "Hello there from playbook"
