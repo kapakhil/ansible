@@ -1,0 +1,12 @@
+- name: using loops to install packages
+  hosts: localhost
+  become: yes
+  tasks:
+    - name: installing loops us
+      ansible.builtin.psckage:
+        msg: "installing packages {{item}}"
+      loop:
+       - git
+       - nginix
+       - mysql
+       - postfix
