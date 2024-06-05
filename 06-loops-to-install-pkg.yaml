@@ -3,7 +3,7 @@
   become: yes
   tasks:
     - name: installing packages using loops
-      ansible.builtin.psckage:
+      ansible.builtin.package:
         msg: "installing packages {{item}}"
         state: present
       loop:
