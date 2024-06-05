@@ -1,7 +1,6 @@
 - name: variables
   hosts: localhost
   tasks:
-    - name: variables from play list
-      ansible.builtin.debud:
+  - name: variables from play list
+    ansible.builtin.debud:
         msg: "Hello there from playbook"
-        
