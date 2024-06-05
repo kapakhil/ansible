@@ -6,6 +6,6 @@
         msg: "Helloww {{item}}"
 
       loops: 
-        - kapdam
-        - akhil
-        - ab
+       - kapdam
+       - akhil
+       - ab
