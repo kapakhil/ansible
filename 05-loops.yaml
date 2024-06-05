@@ -6,7 +6,7 @@
         msg: "hello {{item}}"
 
 
-      loops:
-        - akhil
-        - ab
-        - vk                          
+    loops:
+      - akhil
+      - ab
+      - vk                          
